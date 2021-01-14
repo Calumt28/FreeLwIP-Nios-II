@@ -1274,7 +1274,7 @@ alt_32 alt_tse_mac_get_phy(alt_tse_mac_group *pmac_group) {
     alt_8 mac_group_index = alt_tse_get_mac_group_index(pmac_group);
     
     /* loop all valid PHY address to look for connected PHY */
-    for (phyadd = 0x01; phyadd < 0x20; phyadd++)
+    for (phyadd = 0x00; phyadd < 0x20; phyadd++)
     {        
         IOWR(&pmac_group_base->MDIO_ADDR1, 0, phyadd);
         phyid = IORD(&pmac_group_base->mdio1.PHY_ID1,0);     // read PHY ID
