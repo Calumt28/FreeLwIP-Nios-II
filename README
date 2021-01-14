@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------------
+Modifications made by Intel PSG
+
+- Updated LwIP driver file to support 2 ethernet ports
+- Updated FreeRTOS file for RGMII support
+- FreeRTOS version 10.3.1 was used
+
+Updated Max10 Quartus project found:
+https://github.com/Calumt28/opcua/tree/master/Src/Quartus_Project
+
+-------------------------------------------------------------------------------------
 Modifications made by NetTimeLogic GmbH
 !!! Note !!! - all modification were not tested for the full example project. Focus was to get open62541 up and running.
 
